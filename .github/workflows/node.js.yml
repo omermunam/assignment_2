@@ -25,8 +25,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-      working-directory: ass_2
     - run: npm run build --if-present
-      working-directory: ass_2
     - run: npm test
-      working-directory: ass_2
